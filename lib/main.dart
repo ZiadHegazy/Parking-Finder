@@ -221,7 +221,7 @@ class _MyAppState extends State<MyApp> {
                                 // https://492e-102-186-63-238.ngrok-free.app
                                 //http://10.0.2.2:8080
                                 http.Response x = await http.get(Uri.parse(
-                                    "http://10.0.2.2:8080/$location"));
+                                    "https://fb40-197-133-170-196.ngrok-free.app/$location"));
                                 final result = jsonDecode(x.body)["result"];
                                 print(result);
                                 if (result.length == 0) {
